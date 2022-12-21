@@ -55,6 +55,7 @@ function App() {
     });
     mapView.current = view;
     view.ui.move('zoom', 'top-right');
+    
     //add graphics layers to map
     view.map.add(new GraphicsLayer({id: 'submit-area'}));
     view.map.add(new GraphicsLayer({id: 'hover-graphics'}));
